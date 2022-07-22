@@ -11,3 +11,71 @@
 .button--full{
   display: block;
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 59px;
+  background: #222222;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.header__brandLogo {
+  color: #FFFFFF;
+  font-size: 14px;
+  text-align: center;
+  line-height: 300%;
+  border: 2px solid #FFFFFF;
+}
+
+.header__brandLogo div {
+  width: 150px;
+  height: 42px;
+}
+
+.navMenu {
+  display: flex;
+  gap: 40px;
+}
+
+.navMenu__link a {
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/*index UNLOGGED user*/
+
+.header__unloggedUserMenu{
+
+}
+
+.signControls{
+  display: flex;
+  align-items: center;
+  width: 220px;
+}
+
+.signControls__middlePicture{
+  height: 44px;
+  width: 44px;
+  z-index: 1;
+}
+
+.signControls__signinButton{
+  position: relative;
+  right: -20px;
+  top: 0px;
+}
+
+.signControls__signupButton{
+  position: relative;
+  right: 20px;
+  top: 0px;
+}
