@@ -1,0 +1,31 @@
+.tech__header{
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 999999;
+  margin-bottom: 20px;
+}
+
+.tech{display: flex;margin: 15px;}
+.techBlock{
+  padding: 10px;
+  margin: 10px;
+  border: 1px dashed black;
+}
+.techBlock__row {
+  display: flex;
+}
+.tech__full{
+
+}
+.tech__half{ width: 50% }
+.tech__320{ width: 320px; }
+.tech__480{ width: 480px; }
+.tech__769{ width: 769px; }
+.tech__1280{ width: 1280px; }
+.tech__1024{ width: 1024px; }
+
+.techBlock__mobile iframe{
+  width:100%;
+  height: 400px;
+}
