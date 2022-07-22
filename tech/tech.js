@@ -53,7 +53,7 @@ function init() {
 
   const desktopTech = document.createElement('div');
   desktopTech.className = 'techBlock__desktop';
-  desktopTech.innerHTML = `<div class="techBlock tech__full"></div><div class="techBlock tech__1280"></div><div class="techBlock tech__1024"></div><div class="techBlock__row"><div class="techBlock tech__769"></div><div class="techBlock tech__480"></div><div class="techBlock tech__320"></div></div>`;
+  desktopTech.innerHTML = `<div class="techBlock tech__full"></div><div class="techBlock tech__1280"></div><div class="techBlock tech__1024"></div><div class="techBlock__row"></div>`;
   const desktopTechBlocks = desktopTech.querySelectorAll('.techBlock');
 
   const mobileTech = document.createElement('div');
