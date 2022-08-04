@@ -7,12 +7,201 @@
     <link rel="stylesheet" href="../reset.css"/>
     <link rel="stylesheet" href="tech.css"/>
     <link rel="stylesheet" href="../style.css"/>
+<!--fonts added:-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<!--/fonts added:-->
     <title>Base Tech</title>
   </head>
   <body>
     <div class="tech__content">
-      <div class="techBlock"><div class="button selectable">my button</div></div>
-      <div class="techBlock"><div class="button button--full selectable">my button</div></div>
+
+      <div class="techBlock">
+        <!--C1-->
+        <div class="button button--red selectable"><!--C-->
+          <div class="button__frame"><!--E-->
+            <div class="buttonText"><!--C-->
+              Button
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="techBlock">
+        <!--C2-->
+        <div class="button button--white selectable"><!--C-->
+          <div class="button__frame"><!--E-->
+            <div class="buttonText"><!--C-->
+              Button
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="techBlock">
+        <!--C3 shitcoding-->
+        <div class="checkbox selectable"><!--C-->
+          <input type="checkbox" id="checkbox" />
+          <label for="checkbox"></label>
+        </div>
+      </div>
+
+      <div class="techBlock">
+        <!--C4-->
+        <div class="searchForm selectable"><!--C-->
+          <div class="searchForm__frame"><!--E-->
+            <input class="input input--searchform" type="text" value="Some text..."><!--C-->
+            <div class="searchButton"><!--C-->
+              <div class="searchButton__frame"><!--E-->
+                <img src="\img\lens.svg" alt="magnifying glass"><!--PC-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="techBlock">
+        <!--C5-->
+        <div class="inputDrop selectable"><!--C-->
+          <div class="inputDrop__frame"><!--E-->
+            <input class="input input--shaded input--dropdown" type="text" value="Some text..."><!--C-->
+            <div class="dropButton"><!--C-->
+              <div class="dropButton__frame"><!--E-->
+                <img src="\img\shevron.svg" alt="dropdown arrow"><!--PC-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="techBlock">
+        <!--C6-->
+        <div class="inputVariations selectable"><!--C-->
+          <div class="inputVariations__frame"><!--E-->
+            <input class="input input--shaded" type="text" value="Some text..."><!--C-->
+          </div><br>
+          <div class="inputVariations__frame"><!--E-->
+            <input class="input input--shaded input--croppedLeft" type="text" value="Some text..."><!--C-->
+          </div><br>
+          <div class="inputVariations__frame"><!--E-->
+            <input class="input input--shaded input--croppedRight" type="text" value="Some text..."><!--C-->
+          </div><br>
+          <div class="inputVariations__frame"><!--E-->
+            <input class="input" type="text" value="Some text..."><!--C-->
+          </div><br>
+          <div class="inputVariations__frame"><!--E-->
+            <input class="input input--croppedLeft" type="text" value="Some text..."><!--C-->
+          </div><br>
+          <div class="inputVariations__frame"><!--E-->
+            <input class="input input--croppedRight" type="text" value="Some text..."><!--C-->
+          </div>
+        </div>
+      </div>
+
+      <div class="techBlock">
+        <!--C7-->
+        <div class="calendarCard selectable"><!--C-->
+          <div class="calendarCard__frame"><!--E-->
+            <a class="card" href="https://www.google.com.ua"><!--C-->
+              <div class="card__line"><!--E-->
+                <div class="mounth"><!--C-->
+                  February 2022
+                </div>
+                <div class="radialButton"><!--C-->
+                  <div class="radialButton__frame"><!--E-->
+                    <img src="\img\arrowTopRight.svg" alt="arrow top right"><!--PC-->
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--YOU ARE HERE!!!-->
+
+      <div class="componentInput selectable">
+        <div class="columnShaded">Label
+          <input class="radial" type="text" value="Some text...">
+          <input class="rectRadial" type="text" value="Some text...">
+          <input class="radialRect" type="text" value="Some text...">
+        </div>
+        <div class="columnSimple">
+          <input class="radial" type="text" value="Some text">
+          <input class="rectRadial" type="text" value="Some text">
+          <input class="radialRect" type="text" value="Some text">
+        </div>
+      </div>
+
+      <div class="componentSignControls selectable">
+        <div class="signControls"><!--компонент-->
+          <div class="signControls__signinButton"><!--элемент-->
+            <button>Signin</button><!--примитивный компонент-->
+          </div>
+          <div class="signControls__middlePicture"><!--элемент-->
+            <img src="\img\spiderman.svg" alt="middlePicture"><!--примитивный компонент-->
+          </div>
+          <div class="signControls__signupButton"><!--элемент-->
+            <button>Signup</button><!--примитивный компонент--><!--примитивный компонент-->
+          </div>
+      </div>
+
+      <div class="componentAvatar selectable">
+        <a href="https://www.google.com.ua">
+          <div>
+
+          </div>
+        </a>
+      </div>
+
+      <div class="componentProfileInfo selectable">
+        <div class="componentAvatar">
+
+        </div>
+        <div class="profileData">
+          <div class="profileName">
+
+          </div>
+          <div class="profileId">
+
+          </div>
+          <div class="profileEdit">
+            <button>
+              Edit my profile
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="componentOrders selectable">
+
+      </div>
+
+      <div class="componentOpenTickets selectable">
+
+      </div>
+
+      <div class="componentEditor selectable">
+
+      </div>
+
+      <div class="componentBadge selectable">
+
+      </div>
+
+      <div class="componentAdresses selectable">
+
+      </div>
+
+      <div class="componentCommentary selectable">
+
+      </div>
+
+    </div>
+      <div class="techBlock">
+        <div class="button button--full selectable">my button</div>
+      </div>
       <div class="techBlock">
         <div class="qwerty selectable">
           qwerty
@@ -22,7 +211,7 @@
         <header class="header selectable"><!--компонент-->
 
           <div class="header__brandLogo"><!--элемент-->
-            <div>Logo</div><!--примитивный компонент-->
+            <div></div><!--примитивный компонент-->
           </div>
 
           <div class="header__navMenu"><!--элемент-->
@@ -42,13 +231,13 @@
           <div class="header__unloggedUserMenu"><!--элемент-->
             <div class="signControls"><!--компонент-->
               <div class="signControls__signinButton"><!--элемент-->
-                <img src="\img\signControls\signinButton.png" alt="signinButton"><!--примитивный компонент-->
+                <button>Signin</button><!--примитивный компонент-->
               </div>
               <div class="signControls__middlePicture"><!--элемент-->
-                <img src="\img\signControls\spiderman.png" alt="middlePicture"><!--примитивный компонент-->
+                <img src="\img\spiderman.svg" alt="middlePicture"><!--примитивный компонент-->
               </div>
               <div class="signControls__signupButton"><!--элемент-->
-                <img src="\img\signControls\signupButton.png" alt="signupButton"><!--примитивный компонент-->
+                <button>Signup</button><!--примитивный компонент--><!--примитивный компонент-->
               </div>
             </div>
           </div>
