@@ -2,24 +2,42 @@
 /*main components*/
 
 .button {
-  height: 23px;
+  position: relative;
+  height: 24px;
   /*width: 82px; /*switchable*/
   border: none;
   border-radius: 12px;
 }
 
-.button__frame{
+.button__link a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.button__label {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 700;
+  font-size: 14px;
 }
 
-.buttonText{
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 700;
-  font-size: 12px;
-}
+/*.button__frame{*/
+/*  height: 100%;*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+
+/*.buttonText{*/
+/*  font-family: 'Roboto Condensed', sans-serif;*/
+/*  font-weight: 700;*/
+/*  font-size: 12px;*/
+/*}*/
 
 .input {
   height: 28px;
@@ -176,7 +194,7 @@
   border-radius: 10px;
 }
 
-.calendarCard--february{
+.calendarCard--red{
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.44) 0%, #F44E4E 100%), url(/img/calendarCardFebruary.jpg);
 }
 
